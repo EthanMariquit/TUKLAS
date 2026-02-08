@@ -14,7 +14,7 @@ import io
 
 # --- 1. PAGE CONFIGURATION ---
 st.set_page_config(
-    page_title="TUKLAS Professional",
+    page_title="TUKLAS",
     page_icon="🔬",
     layout="wide",
     initial_sidebar_state="expanded"
