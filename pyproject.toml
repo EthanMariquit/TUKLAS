@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tuklas-app"
+version = "0.1.0"
+description = "Pig Skin Lesion Detection"
+package-mode = false  # <--- THIS IS THE MAGIC FIX
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+streamlit = "*"
+opencv-python-headless = "*"
+ultralytics = "*"
+streamlit-lottie = "*"
+requests = "*"
+fpdf = "*"
+pillow = "*"
+streamlit-mic-recorder = "*"
+SpeechRecognition = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
